@@ -250,11 +250,11 @@ section.about-me p {
     font-size: 1rem;
   }
   section.hero svg.down-arrow {
-    stroke: black;
+    stroke: #008aff;
     position: unset;
   }
   section.hero svg.down-arrow path {
-    fill: black;
+    fill: #008aff;
   }
   .short-explanation {
     margin-top: 18em;
