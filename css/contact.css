@@ -1,0 +1,121 @@
+body {
+  background-color: #fff;
+}
+
+.form {
+  width: 25em;
+  height: 440px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+input:focus {
+  border-bottom: 2px solid #474747;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #252525;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #252525;
+  color: #fff;
+}
+
+span {
+  margin: 0 5px 0 15px;
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: "Poppins", sans-serif;
+  }
+  .form {
+    width: 40em;
+    height: 440px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .form {
+    width: 40em;
+    height: 440px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .form {
+    width: 40em;
+    height: 440px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+}/*# sourceMappingURL=contact.css.map */
