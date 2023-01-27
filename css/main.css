@@ -130,12 +130,12 @@ section.hero .down-arrow path {
   color: #333;
   display: block;
   height: 50px;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
-  padding: 4px;
+  padding: 3px;
   position: relative;
   text-decoration: none;
-  width: 23em;
+  width: 20em;
   z-index: 2;
   display: block;
   margin-left: auto;
@@ -277,6 +277,42 @@ section.about-me p {
     margin-left: 2em;
   }
 }
+
+.short-explanation .bn39 {
+  background-image: linear-gradient(135deg, #008aff, #89b10b);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #333;
+  display: block;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 23em;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.short-explanation .bn39:hover {
+  color: #fff;
+}
+.short-explanation .bn39 .bn39span {
+  align-items: center;
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+.short-explanation .bn39:hover .bn39span {
+  background: transparent;
+}
+
 @media only screen and (min-width: 1200px) {
   .wrapper {
     width: 1200px;
