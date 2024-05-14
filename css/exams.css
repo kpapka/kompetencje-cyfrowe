@@ -1,0 +1,96 @@
+body {
+    /* background-color:hsla(0,0%,100%,1);
+    background-image:
+    radial-gradient(at 13% 100%, hsla(105, 59%, 55%, 0.482) 0px, transparent 50%),
+    radial-gradient(at 90% 100%, hsla(216,100%,50%,0.25) 0px, transparent 50%); */
+    
+    overflow-x: hidden;
+}
+
+
+.tiles-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width:50em) {
+    .tiles-container {
+        justify-content: center;
+    }    
+}
+
+.blank-space {
+    padding-block: 2rem;
+}
+
+.exam-tile {
+    width: 15rem;
+    height:15rem;
+
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 6px 16px 0 rgba( 31, 38, 135, 0.1 );
+    /* backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px ); */
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    margin:0;
+    padding:0;
+    transition: all 250ms ease;
+}
+
+.exam-tile:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+.tile-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.inexam-button {
+    display: block;
+    width: 22rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #008aff;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: .5rem;
+
+    transition: all 250ms ease;
+}
+
+.inexam-button:hover {
+    transform: scale(1.05);
+}
+
+.page-vertical-divider {
+    display: flex;
+    gap: 1;
+}
+
+.left-container {
+    width: 50%;
+}
+
+.right-container {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.right-container img {
+    width: 50%;
+}
+
+hr {
+    border: 1px solid #008aff;
+}
