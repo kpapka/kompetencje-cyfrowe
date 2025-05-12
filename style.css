@@ -23,6 +23,7 @@
     /* 5. Improve text rendering */
     -webkit-font-smoothing: antialiased;
     font-family: "Lexend", sans-serif;
+    overflow-x: hidden;
   }
   
   /* 6. Improve media defaults */
@@ -168,6 +169,13 @@
     max-width: 1500px;
   }
 
+  iframe {
+    @media (width < 1000px) {
+        width: 320px !important;
+        height: 180px !important;
+    }
+  }
+
   .hero-bottom {
     position: absolute;
     display: flex;
@@ -178,6 +186,10 @@
     height: 200px;
     width: 100%;
     bottom: 0;
+
+    @media (width < 1000px) {
+        height: 300px;
+    }
   }
 
   .hero-bottom p {
