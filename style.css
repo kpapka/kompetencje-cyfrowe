@@ -87,6 +87,11 @@
   .max-width {
     max-width: 1200px;
     margin-inline: auto;
+
+    @media(width < 1000px) {
+        margin-inline: 2rem;
+
+    }
   }
 
   nav {
@@ -258,5 +263,27 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    color: white;
+  }
+
+  .about {
+    background-color: var(--clr-blue);
+    color: white;
+    padding-top: 2rem;
+  }
+
+  .faq {
+    color: white;
+    background-color: var(--clr-orange);
+    padding-bottom: 3rem;
+  }
+
+  .accordion {
+    color: #333;
+  }
+
+  .contact {
+    padding-block: 3rem;
+    background-color: var(--clr-blue);
     color: white;
   }
